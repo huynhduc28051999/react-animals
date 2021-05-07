@@ -1,0 +1,90 @@
+
+.home-page {
+  margin-top: 20px;
+}
+.pagination {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.pagination span {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination span.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination span:hover:not(.active) {background-color: #ddd;}
+
+.pagination .select-page-size {
+  float: left;
+  padding: 8px 8px;
+}
+
+.inline-block {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 5px;
+  width: calc(25% - 20px);
+  border-radius: 6px;
+  height: 450px;
+  margin: 10px;
+  border: none;
+  text-align: center;
+}
+.inline-block h3 {
+  width: 90%;
+  text-transform: uppercase;
+  font: 600 16px/20px 'Roboto', sans-serif;
+  color: #e8831b;
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.inline-block .text {
+  color: #000;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.inline-block img {
+  width: 300px;
+  height: 210px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+.inline-block a {
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  display: block;
+  border-radius: 6px;
+  background: #ec3a5e;
+  border: 1px solid;
+  color: #fff;
+  padding: 9px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.inline-block a:hover {
+  background: rgba(236, 58, 94, 0.1);
+  color: #000;
+  transition: 0.5s;
+  transition-delay: 0.25s;
+}
+.inline-block:hover {
+  box-shadow: 0 64px 64px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  transition-delay: 0.25s;
+}
